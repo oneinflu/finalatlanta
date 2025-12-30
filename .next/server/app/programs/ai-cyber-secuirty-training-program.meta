@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/programs/layout,_N_T_/programs/ai-cyber-secuirty-training-program/layout,_N_T_/programs/ai-cyber-secuirty-training-program/page,_N_T_/programs/ai-cyber-secuirty-training-program"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/programs/ai-cyber-secuirty-training-program/__PAGE__",
+    "/programs/ai-cyber-secuirty-training-program",
+    "/programs",
+    "/_index",
+    "/_head"
+  ]
+}

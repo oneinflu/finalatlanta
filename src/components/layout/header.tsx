@@ -1,17 +1,22 @@
+"use client";
 import type { ComponentProps } from "react";
 import { Header as MarketingHeader } from "@/components/marketing/header-navigation/header";
+import { ProgramsMenu } from "@/components/marketing/header-navigation/programs-menu";
 
 export type LayoutHeaderProps = ComponentProps<typeof MarketingHeader>;
 
 const defaultItems = [
     { label: "Academy", href: "/" },
     { label: "SOC Roles", href: "/roles" },
-    { label: "Programs", href: "/programs" },
+    {
+        label: "Programs",
+        menu: <ProgramsMenu />,
+    },
     { label: "Threat Landscape", href: "/threat" },
     { label: "About", href: "/about" },
 ];
 
-export const Header = ({ isFullWidth = true, items, className, ...props }: LayoutHeaderProps) => {
+export const Header = ({ isFullWidth = false, items, className, ...props }: LayoutHeaderProps) => {
     const simpleItems = items ?? defaultItems;
     return (
         <MarketingHeader

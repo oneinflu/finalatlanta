@@ -1,0 +1,1481 @@
+[00:00:00.831] Server  LOG     ✓ Ready in 606ms
+[00:00:03.860] Server  WARN    ⚠ Cross origin request detected from 192.168.0.6 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:04.593] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          <FloatingSplineFollower>
+                          ...
+                            <HomeScreen>
+                              <HomeScreen>
+                                <HomeHero>
+                                  <section className="relative m...">
+                                    <video
+                                      className="absolute inset-0 h-full w-full object-cover"
+                                      autoPlay={true}
+                                      muted={true}
+                                      loop={true}
+                                      playsInline={true}
+                                      src="https://oneinflu.b-cdn.net/atlanta.mp4"
+-                                     data-video="1"
+                                    >
+                                    ...
+                              <HomeScreen>
+                                <HomeFeatures>
+                                  <section className="flex flex-...">
+                                    <div>
+                                    <div className="mx-auto fl...">
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature1.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="2"
+                                                >
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature3.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="3"
+                                                >
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature4.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="4"
+                                                >
+                              ...
+      ...
+
+[00:03:38.709] Server  LOG     ✓ Compiled in 387ms
+[00:03:50.996] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[00:06:28.190] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/threat" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[00:08:27.485] Server  LOG     ✓ Compiled in 192ms
+[00:09:19.496] Server  LOG     ✓ Compiled in 70ms
+[00:12:26.961] Server  LOG     ✓ Compiled in 504ms
+[00:23:18.082] Server  LOG     ✓ Compiled in 144ms
+[00:24:29.647] Server  LOG     ✓ Compiled in 258ms
+[00:24:55.912] Server  LOG     ✓ Compiled in 80ms
+[01:39:05.367] Server  LOG     ✓ Compiled in 511ms
+[01:41:25.924] Server  LOG     ✓ Compiled in 314ms
+[01:42:03.091] Server  LOG     ✓ Compiled in 116ms
+[01:45:01.773] Server  LOG     ✓ Compiled in 446ms
+[01:46:22.881] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[01:47:46.245] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[01:51:31.452] Server  LOG     ✓ Compiled in 1753ms
+[01:52:25.379] Server  LOG     ✓ Compiled in 415ms
+[01:53:13.812] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/threat" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[01:54:40.740] Server  LOG     ✓ Compiled in 95ms
+[01:55:01.798] Server  LOG     ✓ Compiled in 203ms
+[01:55:19.158] Server  LOG     ✓ Compiled in 170ms
+[01:56:51.657] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          <FloatingSplineFollower>
+                          ...
+                            <HomeScreen>
+                              <HomeScreen>
+                                <HomeHero>
+                                  <section className="relative m...">
+                                    <video
+                                      className="absolute inset-0 h-full w-full object-cover"
+                                      autoPlay={true}
+                                      muted={true}
+                                      loop={true}
+                                      playsInline={true}
+                                      src="https://oneinflu.b-cdn.net/atlanta.mp4"
+-                                     data-video="1"
+                                    >
+                                    ...
+                              <HomeScreen>
+                                <HomeFeatures>
+                                  <section className="flex flex-...">
+                                    <div>
+                                    <div className="mx-auto fl...">
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature1.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="2"
+                                                >
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature3.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="3"
+                                                >
+                                      ...
+                                        <AlternateImageMockup>
+                                          <div className="size-full ...">
+                                            <div className="size-full ...">
+                                              <div className="relative s...">
+                                                <video
+                                                  src="/feature4.mp4"
+                                                  autoPlay={true}
+                                                  muted={true}
+                                                  loop={true}
+                                                  playsInline={true}
+                                                  preload="auto"
+                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
+-                                                 data-video="4"
+                                                >
+                              ...
+      ...
+
+[01:59:45.072] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[02:00:12.060] Server  LOG     ✓ Compiled in 529ms
+[02:59:28.195] Server  LOG     ✓ Compiled in 304ms
+[03:05:29.091] Server  LOG     ✓ Compiled in 614ms
+[03:05:31.678] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/threat" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[03:15:21.418] Server  LOG     ✓ Compiled in 217ms
+[03:36:40.757] Server  ERROR   ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... icon={function Stars02} title=... subtitle=...>
+                     ^^^^^^^^^^^^^^^^^^
+[03:36:40.776] Server  LOG     ✓ Compiled in 710ms
+[03:36:40.788] Server  LOG     ✓ Compiled in 1ms
+[03:36:40.939] Server  ERROR   ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... icon={function Stars02} title=... subtitle=...>
+                     ^^^^^^^^^^^^^^^^^^
+[03:36:41.103] Server  ERROR   ⨯ Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  <... href=... icon={function Stars02} title=... subtitle=...>
+                     ^^^^^^^^^^^^^^^^^^
+[03:36:42.764] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[03:37:33.757] Browser ERROR   ./src/components/layout/header.tsx:1:2
+Parsing ecmascript source code failed
+> 1 | \"use client\";
+    |  ^^^^^^^^^^^^^^
+  2 | import type { ComponentProps } from "react";
+  3 | import { Stars02 } from "@untitledui/icons";
+  4 | import { Header as MarketingHeader } from "@/components/marketing/header-navigation/header";
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./src/components/layout/header.tsx
+    ./src/app/layout.tsx
+[03:37:44.755] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[03:39:02.134] Server  LOG     ✓ Compiled in 304ms
+[04:43:56.131] Server  LOG     ✓ Compiled in 361ms
+[04:43:56.370] Server  LOG     ✓ Compiled in 0ms
+[04:43:57.942] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[06:03:13.949] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[06:04:28.101] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/programs" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[06:04:35.747] Server  LOG     ✓ Compiled in 211ms
+[06:05:30.527] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/programs/..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[06:09:51.230] Server  LOG     ✓ Compiled in 134ms
+[06:10:28.507] Server  LOG     ✓ Compiled in 357ms
+[06:11:40.462] Server  LOG     ✓ Compiled in 354ms
+[06:12:04.958] Server  LOG     ✓ Compiled in 237ms
+[06:34:23.354] Server  LOG     ✓ Compiled in 208ms
+[06:35:28.916] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/programs/..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
+[06:35:42.970] Server  LOG     ✓ Compiled in 445ms
+[06:41:04.556] Server  LOG     ✓ Compiled in 358ms
+[06:41:04.664] Browser ERROR   ./src/app/programs/caasp-hero.tsx:1:2
+Parsing ecmascript source code failed
+> 1 | \"use client\";
+    |  ^^^^^^^^^^^^^^
+  2 | import { ShineButton } from "@/components/base/buttons/shine-button";
+  3 | import { motion } from "motion/react";
+  4 | import { Stars02, FileCode01, BarChart02 } from "@untitledui/icons";
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./src/app/programs/caasp-hero.tsx
+    ./src/app/programs/ai-cyber-secuirty-training-program/page.tsx
+[06:42:01.727] Browser ERROR   ./src/app/programs/caasp-hero.tsx:1:1
+Parsing ecmascript source code failed
+> 1 | \"use client";
+    | ^
+  2 | import { ShineButton } from "@/components/base/buttons/shine-button";
+  3 | import { motion } from "motion/react";
+  4 | import { Stars02, FileCode01, BarChart02 } from "@untitledui/icons";
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./src/app/programs/caasp-hero.tsx
+    ./src/app/programs/ai-cyber-secuirty-training-program/page.tsx
+[06:42:49.784] Server  LOG     ✓ Compiled in 432ms
+[06:43:59.210] Server  LOG     ✓ Compiled in 235ms
+[06:46:11.934] Server  LOG     ✓ Compiled in 564ms
+[06:54:37.313] Server  LOG     ✓ Compiled in 598ms
+[07:00:09.869] Server  LOG     ✓ Compiled in 477ms
+[07:10:00.377] Server  LOG     ✓ Compiled in 509ms
+[07:10:39.056] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.059] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.060] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.060] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.060] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.060] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:39.061] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:10:48.443] Browser WARN    You are trying to animate r from "6.553740558825666" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:11:59.943] Browser WARN    You are trying to animate r from "6.209937446488766" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.892] Server  LOG     ✓ Compiled in 178ms
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:12:20.982] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:13:35.200] Server  LOG     ✓ Compiled in 359ms
+[07:14:09.828] Browser WARN    You are trying to animate r from "6.152694617077941" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:14:36.404] Server  LOG     ✓ Compiled in 239ms
+[07:14:46.815] Browser WARN    You are trying to animate r from "6.0142322228930425" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:14:52.130] Browser WARN    You are trying to animate r from "6.905246601992985" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:15:49.008] Server  LOG     ✓ Compiled in 204ms
+[07:18:23.685] Server  LOG     ✓ Compiled in 301ms
+[07:18:31.922] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[07:22:11.407] Server  LOG     ✓ Compiled in 670ms
+[07:22:15.279] Browser WARN    You are trying to animate r from "6.656206607323838" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:22:21.256] Server  LOG     ✓ Compiled in 139ms
+[07:24:02.217] Server  LOG     ✓ Compiled in 459ms
+[07:24:28.031] Server  LOG     ✓ Compiled in 469ms
+[07:25:14.193] Server  LOG     ✓ Compiled in 270ms
+[07:25:33.570] Server  LOG     ✓ Compiled in 356ms
+[07:26:36.628] Server  LOG     ✓ Compiled in 554ms
+[07:26:44.379] Server  LOG     ✓ Compiled in 159ms
+[07:28:29.158] Server  LOG     ✓ Compiled in 348ms
+[07:29:27.034] Browser WARN    You are trying to animate r from "6.495971718424698" to "6". "6" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:29:48.977] Server  LOG     ✓ Compiled in 599ms
+[07:31:49.554] Server  LOG     ✓ Compiled in 441ms
+[07:41:54.249] Server  LOG     ✓ Compiled in 506ms
+[07:41:54.375] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `AgenticVisualStory`. 
+[07:41:54.375] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.375] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:41:54.376] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:53:18.497] Server  LOG     ✓ Compiled in 366ms
+[07:55:15.098] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.099] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.099] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:55:15.100] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.112] Server  LOG     ✓ Compiled in 413ms
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.25". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[07:56:29.224] Browser WARN    You are trying to animate opacity from "undefined" to "0.6". "undefined" is not an animatable value.. For more information and steps for solving, visit https://motion.dev/troubleshooting/value-not-animatable
+[08:04:54.479] Server  LOG     ✓ Compiled in 625ms
+[08:05:56.589] Server  LOG     ✓ Compiled in 310ms
+[08:10:51.615] Server  LOG     ✓ Compiled in 591ms
+[08:12:41.813] Server  LOG     ✓ Compiled in 202ms
+[08:17:11.507] Server  LOG     ✓ Compiled in 336ms
+[08:18:18.979] Server  LOG     ✓ Compiled in 238ms
+[08:20:08.090] Server  LOG     ✓ Compiled in 318ms
+[08:47:21.355] Server  LOG     ✓ Compiled in 305ms
+[08:48:12.443] Server  LOG     ✓ Compiled in 178ms
+[08:55:06.547] Server  LOG     ✓ Compiled in 356ms
+[08:56:26.368] Server  LOG     ✓ Compiled in 392ms
+[08:59:51.932] Server  LOG     ✓ Compiled in 121ms
+[09:04:04.690] Server  LOG     ✓ Compiled in 189ms
+[09:06:55.877] Server  LOG     ✓ Compiled in 403ms
+[09:12:43.524] Server  LOG     ✓ Compiled in 391ms
+[09:13:48.871] Server  LOG     ✓ Compiled in 575ms
+[09:17:12.268] Server  LOG     ✓ Compiled in 545ms
+[09:20:18.693] Server  LOG     ✓ Compiled in 193ms
+[09:20:26.166] Server  LOG     ✓ Compiled in 162ms
+[09:20:31.350] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[09:20:51.027] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[09:20:53.182] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <Head>
+      <__next_root_layout_boundary__>
+        <SegmentViewNode type="layout" pagePath="layout.tsx">
+          <SegmentTrieNode>
+          <link>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <script>
+          <RootLayout>
+            <html lang="en" suppressHydrationWarning={true}>
+              <body className="inter_2fe1...">
+                <Script>
+                <RouteProvider>
+                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
+                    <Theme>
+                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
+                          <script>
+                          <div className="fixed inse...">
+                            <video
+                              aria-hidden="true"
+                              className="absolute inset-0 h-full w-full object-cover"
+                              src="/bg2.mp4"
+                              playsInline={true}
+                              muted={true}
+                              loop={true}
+                              autoPlay={true}
+                              preload="auto"
+-                             data-video="0"
+                            >
+                            ...
+                          ...
+      ...
+
+[09:23:13.745] Server  LOG     ✓ Compiled in 448ms
+[09:25:32.603] Server  LOG     ✓ Compiled in 344ms
+[09:26:42.568] Server  LOG     ✓ Compiled in 170ms
+[09:37:20.336] Server  LOG     ✓ Compiled in 266ms
+[09:38:40.224] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/programs/..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
+                            ...
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
+                              ...
+                  ...
+
