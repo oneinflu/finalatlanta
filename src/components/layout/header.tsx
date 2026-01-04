@@ -6,14 +6,14 @@ import { ProgramsMenu } from "@/components/marketing/header-navigation/programs-
 export type LayoutHeaderProps = ComponentProps<typeof MarketingHeader>;
 
 const defaultItems = [
-    { label: "Academy", href: "/academy" },
-    { label: "SOC Roles", href: "/roles" },
+    { label: "Academy", href: "/academy/" },
+    { label: "SOC Roles", href: "/roles/" },
     {
         label: "Programs",
         menu: <ProgramsMenu />,
     },
-    { label: "Threat Landscape", href: "/threat" },
-    { label: "About", href: "/about" },
+    { label: "Threat Landscape", href: "/threat/" },
+    { label: "About", href: "/about/" },
 ];
 
 export const Header = ({ isFullWidth = false, items, className, ...props }: LayoutHeaderProps) => {
