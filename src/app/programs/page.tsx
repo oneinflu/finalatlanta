@@ -1,6 +1,9 @@
-import { redirect } from "next/navigation";
+ "use client";
+import { useEffect } from "react";
 
 export default function ProgramsIndexPage() {
-    redirect("/programs/ai-cyber-secuirty-training-program");
+    useEffect(() => {
+        window.location.href = "/programs/ai-cyber-secuirty-training-program";
+    }, []);
+    return null;
 }
-
