@@ -1,8 +1,7 @@
-[00:00:08.110] Server  LOG     ✓ Ready in 6.8s
-[00:00:11.566] Server  LOG     ○ Compiling / ...
-[00:00:20.845] Server  WARN    ⚠ Cross origin request detected from 192.168.0.7 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:00.848] Server  LOG     ✓ Ready in 541ms
+[00:00:01.246] Server  WARN    ⚠ Cross origin request detected from 192.168.0.7 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:23.090] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.235] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -15,278 +14,48 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    <RedirectErrorBoundary router={{...}}>
-      <Head>
-      <__next_root_layout_boundary__>
-        <SegmentViewNode type="layout" pagePath="layout.tsx">
-          <SegmentTrieNode>
-          <link>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <RootLayout>
-            <html lang="en" suppressHydrationWarning={true}>
-              <body className="inter_2fe1...">
-                <Script>
-                <RouteProvider>
-                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
-                    <Theme>
-                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                          <script>
-                          <div className="fixed inse...">
-                            <video
-                              aria-hidden="true"
-                              className="absolute inset-0 h-full w-full object-cover"
-                              src="/bg2.mp4"
-                              playsInline={true}
-                              muted={true}
-                              loop={true}
-                              autoPlay={true}
-                              preload="auto"
--                             data-video="0"
-                            >
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/academy" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_2fe1ab3d-module__-T-KAq__variable bg-primary antialiased overflow-x-hidde..."
+-                           cz-shortcut-listen="true"
+                          >
+                            <Script>
                             ...
-                          <FloatingSplineFollower>
-                          ...
-                            <HomeScreen>
-                              <HomeScreen>
-                                <HomeHero>
-                                  <section className="relative m...">
-                                    <video
-                                      className="absolute inset-0 h-full w-full object-cover"
-                                      autoPlay={true}
-                                      muted={true}
-                                      loop={true}
-                                      playsInline={true}
-                                      src="https://oneinflu.b-cdn.net/atlanta.mp4"
--                                     data-video="1"
-                                    >
-                                    ...
-                              <HomeScreen>
-                                <HomeFeatures>
-                                  <section className="flex flex-...">
-                                    <div>
-                                    <div className="mx-auto fl...">
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature1.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="2"
-                                                >
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature3.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="3"
-                                                >
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature4.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="4"
-                                                >
+                              <script>
+                              <div className="fixed inse...">
+                                <video
+                                  aria-hidden="true"
+                                  className="absolute inset-0 h-full w-full object-cover"
+                                  src="/bg2.mp4"
+                                  playsInline={true}
+                                  muted={true}
+                                  loop={true}
+                                  autoPlay={true}
+                                  preload="auto"
+-                                 data-video="0"
+                                >
+                                ...
                               ...
-      ...
-
-[00:02:23.528] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <RedirectErrorBoundary router={{...}}>
-      <Head>
-      <__next_root_layout_boundary__>
-        <SegmentViewNode type="layout" pagePath="layout.tsx">
-          <SegmentTrieNode>
-          <link>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <RootLayout>
-            <html lang="en" suppressHydrationWarning={true}>
-              <body className="inter_2fe1...">
-                <Script>
-                <RouteProvider>
-                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
-                    <Theme>
-                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                          <script>
-                          <div className="fixed inse...">
-                            <video
-                              aria-hidden="true"
-                              className="absolute inset-0 h-full w-full object-cover"
-                              src="/bg2.mp4"
-                              playsInline={true}
-                              muted={true}
-                              loop={true}
-                              autoPlay={true}
-                              preload="auto"
--                             data-video="0"
-                            >
-                            ...
-                          <FloatingSplineFollower>
-                          ...
-                            <HomeScreen>
-                              <HomeScreen>
-                                <HomeHero>
-                                  <section className="relative m...">
-                                    <video
-                                      className="absolute inset-0 h-full w-full object-cover"
-                                      autoPlay={true}
-                                      muted={true}
-                                      loop={true}
-                                      playsInline={true}
-                                      src="https://oneinflu.b-cdn.net/atlanta.mp4"
--                                     data-video="1"
-                                    >
-                                    ...
-                              <HomeScreen>
-                                <HomeFeatures>
-                                  <section className="flex flex-...">
-                                    <div>
-                                    <div className="mx-auto fl...">
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature1.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="2"
-                                                >
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature3.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="3"
-                                                >
-                                      ...
-                                        <AlternateImageMockup>
-                                          <div className="size-full ...">
-                                            <div className="size-full ...">
-                                              <div className="relative s...">
-                                                <video
-                                                  src="/feature4.mp4"
-                                                  autoPlay={true}
-                                                  muted={true}
-                                                  loop={true}
-                                                  playsInline={true}
-                                                  preload="auto"
-                                                  className="size-full object-contain lg:w-auto lg:max-w-none"
--                                                 data-video="4"
-                                                >
-                              ...
-      ...
-
-[00:07:13.596] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <RedirectErrorBoundary router={{...}}>
-      <Head>
-      <__next_root_layout_boundary__>
-        <SegmentViewNode type="layout" pagePath="layout.tsx">
-          <SegmentTrieNode>
-          <link>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <script>
-          <RootLayout>
-            <html lang="en" suppressHydrationWarning={true}>
-              <body className="inter_2fe1...">
-                <Script>
-                <RouteProvider>
-                  <$ea8dcbcb9ea1b556$export$323e4fc2fa4753fb navigate={function push}>
-                    <Theme>
-                      <J attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                        <V attribute="class" value={{light:"lig...", ...}} enableSystem={true}>
-                          <script>
-                          <div className="fixed inse...">
-                            <video
-                              aria-hidden="true"
-                              className="absolute inset-0 h-full w-full object-cover"
-                              src="/bg2.mp4"
-                              playsInline={true}
-                              muted={true}
-                              loop={true}
-                              autoPlay={true}
-                              preload="auto"
--                             data-video="0"
-                            >
-                            ...
-                          ...
-      ...
+                  ...
 

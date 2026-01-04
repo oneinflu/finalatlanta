@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,21253,e=>{"use strict";var r=e.i(71645),t=e.i(18566);function u(){let e=(0,t.useRouter)();return(0,r.useEffect)(()=>{e.replace("/programs/ai-cyber-secuirty-training-program")},[e]),null}e.s(["default",()=>u])}]);
