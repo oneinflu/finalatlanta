@@ -189,10 +189,30 @@ export const HomeHero = () => {
                         className="mt-10 w-full"
                     >
                         <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
-                            <Stat end={400} suffix="+" label="Projects completed" />
-                            <Stat end={600} suffix="%" label="Return on investment" />
-                            <Stat end={10_000} label="Global downloads" />
-                            <Stat end={200} suffix="+" label="5-star reviews" />
+                            <div className="flex w-full flex-col items-start">
+                                <div className="text-3xl font-semibold tracking-tight text-white md:text-4xl">120+</div>
+                                <div className="mt-2 h-px w-full bg-white/20" />
+                                <div className="mt-2 text-sm text-white/70">Hours of hands-on training</div>
+                                <div className="mt-1 text-xs text-white/60">Real-world labs, simulations, and capstone projects</div>
+                            </div>
+                            <div className="flex w-full flex-col items-start">
+                                <div className="text-3xl font-semibold tracking-tight text-white md:text-4xl">70%</div>
+                                <div className="mt-2 h-px w-full bg-white/20" />
+                                <div className="mt-2 text-sm text-white/70">Practical, lab-driven learning</div>
+                                <div className="mt-1 text-xs text-white/60">Focused on doing, not theory</div>
+                            </div>
+                            <div className="flex w-full flex-col items-start">
+                                <div className="text-3xl font-semibold tracking-tight text-white md:text-4xl">Global</div>
+                                <div className="mt-2 h-px w-full bg-white/20" />
+                                <div className="mt-2 text-sm text-white/70">Threat & SOC context</div>
+                                <div className="mt-1 text-xs text-white/60">Training aligned with real-world attack patterns</div>
+                            </div>
+                            <div className="flex w-full flex-col items-start">
+                                <div className="text-3xl font-semibold tracking-tight text-white md:text-4xl">Industry-aligned</div>
+                                <div className="mt-2 h-px w-full bg-white/20" />
+                                <div className="mt-2 text-sm text-white/70">Framework-based curriculum</div>
+                                <div className="mt-1 text-xs text-white/60">ISO 42001 · NIST AI RMF · MITRE ATLAS</div>
+                            </div>
                         </div>
                     </motion.div>
                 </div>
