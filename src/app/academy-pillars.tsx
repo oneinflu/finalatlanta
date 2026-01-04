@@ -195,15 +195,21 @@ export const AcademyPillars = () => {
     };
 
     return (
-        <section className="relative w-full bg-base-near-black">
-            <BackgroundPattern pattern="grid" size="lg" className="pointer-events-none absolute inset-0 w-full h-full text-white/15 opacity-15" />
+        <section className="relative w-full bg-[#0A0D12]">
+            <BackgroundPattern
+                pattern="grid"
+                size="lg"
+                className="pointer-events-none absolute inset-0 z-10 w-full h-full text-white/15 opacity-20"
+                style={{ mixBlendMode: "soft-light" }}
+            />
             <div
-                className="pointer-events-none absolute inset-0"
+                className="pointer-events-none absolute inset-0 z-20 opacity-95"
                 style={{
                     background:
-                        "radial-gradient(120% 120% at 50% 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.4) 100%)",
+                        "radial-gradient(120% 120% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.80) 100%)",
                 }}
             />
+            <div className="pointer-events-none absolute inset-0 z-21 bg-black/60" />
             <div
                 className="pointer-events-none absolute inset-0 opacity-15"
                 style={{
@@ -212,7 +218,9 @@ export const AcademyPillars = () => {
                     backgroundSize: "80px 80px, 80px 80px",
                 }}
             />
-            <div ref={containerRef} className="relative mx-auto w-full max-w-container px-4 md:px-8 py-24">
+            <div className="absolute top-0 left-0 z-20 h-24 w-full bg-gradient-to-b from-transparent via-[#0A0D12]/65 to-[#0A0D12]" />
+            <div className="absolute bottom-0 left-0 z-20 h-20 w-full bg-gradient-to-t from-[#0A0D12] via-[#0A0D12]/60 to-transparent" />
+            <div ref={containerRef} className="relative z-30 mx-auto w-full max-w-container px-4 md:px-8 py-24">
                 <div ref={canvasRef} className="absolute inset-0 -z-[1]" />
                 <div className="mx-auto max-w-4xl text-center">
                     <div className="text-md font-semibold text-brand-secondary">Academy Pillars</div>
