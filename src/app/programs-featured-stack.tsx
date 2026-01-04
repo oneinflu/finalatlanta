@@ -15,18 +15,18 @@ const programs: ProgramCard[] = [
     {
         title: "Agentic AI Security Professional (CAASP)",
         subtitle: "Featured Program",
-        href: "/programs/ai-cyber-secuirty-training-program",
+        href: "/programs/ai-cyber-security-training-program",
         featured: true,
     },
     {
         title: "SOC Analyst Pathway",
         subtitle: "Telemetry, SIEM, EDR, incident workflows",
-        href: "/programs/ai-cyber-secuirty-training-program",
+        href: "/programs/ai-cyber-security-training-program",
     },
     {
         title: "Autonomous Systems Defense",
         subtitle: "Agent safety, containment, monitoring",
-        href: "/programs/ai-cyber-secuirty-training-program",
+        href: "/programs/ai-cyber-security-training-program",
     },
 ];
 

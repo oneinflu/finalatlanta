@@ -10,7 +10,7 @@ export const ProgramsMenu = () => {
                 <ul className="flex flex-col gap-0.5">
                     <li>
                         <NavMenuItemLink
-                            href="/programs/ai-cyber-secuirty-training-program"
+                            href="/programs/ai-cyber-security-training-program"
                             icon={Stars02}
                             title="AI Cybersecurity Training Program"
                             subtitle="Hands-on SOC training augmented with AI workflows."

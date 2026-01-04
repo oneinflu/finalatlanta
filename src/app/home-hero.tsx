@@ -5,6 +5,7 @@ import { Button } from "@/components/base/buttons/button";
 import { ShineButton } from "@/components/base/buttons/shine-button";
 import { cx } from "@/utils/cx";
 import { motion } from "motion/react";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const formatCompact = (n: number) => {
@@ -74,7 +75,7 @@ export const HomeHero = () => {
                 muted
                 loop
                 playsInline
-                src="https://oneinflu.b-cdn.net/atlanta.mp4"
+                src="./bg3.mov"
             />
             <motion.div
                 initial={{ opacity: 1 }}
@@ -82,7 +83,7 @@ export const HomeHero = () => {
                 transition={{ delay: 0.2, duration: 0.4, ease: "easeOut" }}
                 className="absolute inset-0 z-10"
                 style={{
-                    background: "linear-gradient(to bottom, rgba(10,13,18,0.85), rgba(10,13,18,0.95))",
+                    background: "linear-gradient(to bottom, rgba(10, 13, 18, 0.51), rgba(10, 13, 18, 0.39))",
                 }}
             />
             <motion.div
@@ -172,11 +173,13 @@ export const HomeHero = () => {
                         transition={{ duration: 0.5, ease: "easeOut", delay: 1.1 }}
                         className="flex flex-row items-center gap-3 justify-center"
                     >
-                        <ShineButton className="cursor-cta-trendy" color="secondary-destructive" size="xl" iconTrailing={ArrowRight}>
-                            Apply for Program
-                        </ShineButton>
+                        <Link href="/programs/ai-cyber-security-training-program/">
+                            <ShineButton className="cursor-cta-trendy" color="secondary-destructive" size="xl" iconTrailing={ArrowRight}>
+                               View Program
+                            </ShineButton>
+                        </Link>
                         <Button color="link-gray" className="rounded-full text-white/90 hover:text-white cursor-cta-trendy" size="xl">
-                            View Curriculum
+                            About Academy
                         </Button>
                     </motion.div>
                     <motion.div
