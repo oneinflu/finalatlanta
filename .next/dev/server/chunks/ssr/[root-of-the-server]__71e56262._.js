@@ -166,7 +166,9 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$a
 
 __turbopack_context__.s([
     "default",
-    ()=>AcademyPage
+    ()=>AcademyPage,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$academy$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/academy-hero.tsx [app-rsc] (ecmascript)");
@@ -178,33 +180,37 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$programs$2d$fe
 ;
 ;
 ;
+const metadata = {
+    title: "SOC Academy | Training for Modern Security Operations & AI Security",
+    description: "Explore Atlanta SOC Academy — a professional training institution focused on security operations, agentic AI security, governance, and real-world cyber defense."
+};
 function AcademyPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$academy$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AcademyHero"], {}, void 0, false, {
                 fileName: "[project]/src/app/academy/page.tsx",
-                lineNumber: 10,
+                lineNumber: 16,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$academy$2d$pillars$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AcademyPillars"], {}, void 0, false, {
                 fileName: "[project]/src/app/academy/page.tsx",
-                lineNumber: 11,
+                lineNumber: 17,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$academy$2d$learning$2d$strip$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AcademyLearningStrip"], {}, void 0, false, {
                 fileName: "[project]/src/app/academy/page.tsx",
-                lineNumber: 12,
+                lineNumber: 18,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$programs$2d$featured$2d$stack$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ProgramsFeaturedStack"], {}, void 0, false, {
                 fileName: "[project]/src/app/academy/page.tsx",
-                lineNumber: 13,
+                lineNumber: 19,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/academy/page.tsx",
-        lineNumber: 9,
+        lineNumber: 15,
         columnNumber: 9
     }, this);
 }

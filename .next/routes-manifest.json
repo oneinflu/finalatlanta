@@ -53,6 +53,12 @@
       "namedRegex": "^/icon\\.png(?:/)?$"
     },
     {
+      "page": "/programs",
+      "regex": "^/programs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/programs(?:/)?$"
+    },
+    {
       "page": "/programs/ai-cyber-secuirty-training-program",
       "regex": "^/programs/ai\\-cyber\\-secuirty\\-training\\-program(?:/)?$",
       "routeKeys": {},

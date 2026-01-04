@@ -902,10 +902,16 @@ const HomeScreen = ()=>{
 
 __turbopack_context__.s([
     "default",
-    ()=>__TURBOPACK__default__export__
+    ()=>__TURBOPACK__default__export__,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$home$2d$screen$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/home-screen.tsx [app-rsc] (ecmascript)");
 ;
+const metadata = {
+    title: "Atlanta SOC Academy | Advanced Cybersecurity & AI Security Training",
+    description: "Atlanta SOC Academy trains professionals in modern security operations, AI security, and agentic systems through hands-on, industry-aligned programs."
+};
 const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$home$2d$screen$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["HomeScreen"];
 }),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
