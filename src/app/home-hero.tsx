@@ -75,7 +75,7 @@ export const HomeHero = () => {
                 muted
                 loop
                 playsInline
-                src="./bg2.mov"
+                src="./atlanta.mov"
             />
             <motion.div
                 initial={{ opacity: 1 }}
