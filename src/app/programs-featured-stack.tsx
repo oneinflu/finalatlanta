@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { BackgroundPattern } from "@/components/shared-assets/background-patterns";
 
 type ProgramCard = {
     title: string;
@@ -36,6 +37,14 @@ export const ProgramsFeaturedStack = () => {
 
     return (
         <section className="relative w-full bg-base-near-black">
+            <BackgroundPattern pattern="grid" size="lg" className="pointer-events-none absolute inset-0 w-full h-full text-white/15 opacity-15" />
+            <div
+                className="pointer-events-none absolute inset-0"
+                style={{
+                    background:
+                        "radial-gradient(120% 120% at 50% 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.4) 100%)",
+                }}
+            />
             <div className="mx-auto w-full max-w-container px-4 md:px-8 py-24">
                 <div className="mx-auto max-w-4xl text-center">
                     <div className="text-md font-semibold text-brand-secondary">Programs</div>

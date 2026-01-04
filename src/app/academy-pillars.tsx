@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import { BackgroundPattern } from "@/components/shared-assets/background-patterns";
 
 const PillarCard = ({
     title,
@@ -195,6 +196,7 @@ export const AcademyPillars = () => {
 
     return (
         <section className="relative w-full bg-base-near-black">
+            <BackgroundPattern pattern="grid" size="lg" className="pointer-events-none absolute inset-0 w-full h-full text-white/15 opacity-15" />
             <div
                 className="pointer-events-none absolute inset-0"
                 style={{

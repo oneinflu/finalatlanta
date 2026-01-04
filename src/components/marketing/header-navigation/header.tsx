@@ -17,11 +17,10 @@ type HeaderNavItem = {
 };
 
 const headerNavItems: HeaderNavItem[] = [
+    { label: "Home", href: "/" },
     { label: "Academy", href: "/academy" },
-    { label: "SOC Roles", href: "/roles" },
     { label: "Programs", href: "/programs" },
     { label: "Threat Landscape", href: "/threat" },
-    { label: "About", href: "/about" },
 ];
 
 const footerNavItems = [
