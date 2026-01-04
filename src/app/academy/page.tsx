@@ -7,7 +7,7 @@ import { ProgramsFeaturedStack } from "@/app/programs-featured-stack";
 export const metadata: Metadata = {
     title: "SOC Academy | Training for Modern Security Operations & AI Security",
     description:
-        "Explore Perth SOC Academy — a professional training institution focused on security operations, agentic AI security, governance, and real-world cyber defense.",
+        "Explore Atlanta SOC Academy — a professional training institution focused on security operations, agentic AI security, governance, and real-world cyber defense.",
 };
 
 export default function AcademyPage() {

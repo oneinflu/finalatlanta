@@ -39,7 +39,7 @@ export const Footer: FC<{ className?: string }> = ({ className }) => {
                     </ul>
                 </nav>
 
-                <div className="ml-auto text-sm text-tertiary">{`© ${year} Perth SOC`}</div>
+                <div className="ml-auto text-sm text-tertiary">{`© ${year} Atlanta SOC`}</div>
             </div>
         </footer>
     );

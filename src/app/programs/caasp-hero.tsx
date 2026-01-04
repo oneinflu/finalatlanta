@@ -147,7 +147,7 @@ export const CAASPHero = () => {
                                             <Input label="Full Name" name="name" placeholder="Jane Doe" />
                                             <Input label="Email" name="email" type="email" placeholder="jane@company.com" />
                                             <Input label="Phone" name="phone" placeholder="+1 404 555 0123" />
-                                            <Input label="City" name="city" placeholder="Perth" />
+                                            <Input label="City" name="city" placeholder="Atlanta" />
                                             <div className="mt-4 flex items-center justify-end gap-2">
                                                 <ShineButton color="secondary" size="lg" onClick={() => state.close()}>
                                                     Cancel
@@ -198,7 +198,7 @@ export const CAASPHero = () => {
                                             <Input label="Full Name" name="name" placeholder="Jane Doe" />
                                             <Input label="Email" name="email" type="email" placeholder="jane@company.com" />
                                             <Input label="Phone" name="phone" placeholder="+1 404 555 0123" />
-                                            <Input label="City" name="city" placeholder="Perth" />
+                                            <Input label="City" name="city" placeholder="Atlanta" />
                                             <div className="mt-4 flex items-center justify-end gap-2">
                                                 <ShineButton color="secondary" size="lg" onClick={() => state.close()}>
                                                     Cancel

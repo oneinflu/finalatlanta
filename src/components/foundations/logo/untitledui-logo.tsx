@@ -15,7 +15,7 @@ export const UntitledLogo = (props: HTMLAttributes<HTMLOrSVGElement>) => {
 
             {/* Logomark */}
             <div className="h-full flex items-center shrink-0">
-                <span className="text-fg-primary text-lg md:text-xl font-semibold tracking-tight">Perth SOC</span>
+                <span className="text-fg-primary text-lg md:text-xl font-semibold tracking-tight">Atlanta SOC</span>
             </div>
         </div>
     );
