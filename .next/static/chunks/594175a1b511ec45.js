@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,21253,r=>{"use strict";var t=r.i(71645);function e(){return(0,t.useEffect)(()=>{window.location.href="/programs/ai-cyber-secuirty-training-program"},[]),null}r.s(["default",()=>e])}]);
