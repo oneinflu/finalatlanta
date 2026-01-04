@@ -58,14 +58,14 @@ export default function RootLayout({
                                 className="absolute left-0 top-0 h-[50vh] w-[50vw] blur-3xl opacity-30"
                                 style={{
                                     background:
-                                        "radial-gradient(circle at 30% 30%, rgba(158,119,237,0.28) 0%, rgba(127,86,217,0.14) 35%, rgba(127,86,217,0) 65%)",
+                                        "radial-gradient(circle at 30% 30%, rgba(139,92,246,0.22) 0%, rgba(127,86,217,0.12) 35%, rgba(127,86,217,0) 65%)",
                                 }}
                             />
                             <div
                                 className="absolute right-0 bottom-8 h-[55vh] w-[55vw] blur-3xl opacity-25"
                                 style={{
                                     background:
-                                        "radial-gradient(circle at 70% 70%, rgba(127,86,217,0.24) 0%, rgba(105,65,198,0.12) 35%, rgba(105,65,198,0) 65%)",
+                                        "radial-gradient(circle at 70% 70%, rgba(127,86,217,0.22) 0%, rgba(68,76,231,0.12) 35%, rgba(68,76,231,0) 65%)",
                                 }}
                             />
                             <div

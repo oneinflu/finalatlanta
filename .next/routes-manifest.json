@@ -41,6 +41,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/academy",
+      "regex": "^/academy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/academy(?:/)?$"
+    },
+    {
       "page": "/icon.png",
       "regex": "^/icon\\.png(?:/)?$",
       "routeKeys": {},

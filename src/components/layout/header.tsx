@@ -6,7 +6,7 @@ import { ProgramsMenu } from "@/components/marketing/header-navigation/programs-
 export type LayoutHeaderProps = ComponentProps<typeof MarketingHeader>;
 
 const defaultItems = [
-    { label: "Academy", href: "/" },
+    { label: "Academy", href: "/academy" },
     { label: "SOC Roles", href: "/roles" },
     {
         label: "Programs",

@@ -6,6 +6,17 @@
 @plugin "tailwindcss-react-aria-components";
 @plugin "tailwindcss-animate";
 
+/* Global Visual System */
+@utility bg-base-near-black {
+    background-color: #0B0F14;
+}
+@utility bg-accent-radial {
+    background-image: radial-gradient(600px circle at 20% 10%, rgba(139, 92, 246, 0.18), transparent 40%);
+}
+@utility glow-purple-soft {
+    box-shadow: 0 0 24px 4px rgba(127, 86, 217, 0.15), 0 0 120px 24px rgba(68, 76, 231, 0.08);
+}
+
 @custom-variant dark (&:where(.dark-mode, .dark-mode *));
 @custom-variant label (& [data-label]);
 @custom-variant focus-input-within (&:has(input:focus));
@@ -44,6 +55,7 @@ body {
     font-variant-ligatures: contextual;
     -webkit-font-kerning: normal;
     font-kerning: normal;
+    background-color: #0B0F14;
 }
 
 /* Hide the default expand arrow on Safari.  */

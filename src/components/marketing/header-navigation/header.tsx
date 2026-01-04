@@ -17,7 +17,7 @@ type HeaderNavItem = {
 };
 
 const headerNavItems: HeaderNavItem[] = [
-    { label: "Academy", href: "/" },
+    { label: "Academy", href: "/academy" },
     { label: "SOC Roles", href: "/roles" },
     { label: "Programs", href: "/programs" },
     { label: "Threat Landscape", href: "/threat" },
@@ -114,8 +114,20 @@ export const Header = ({ items = headerNavItems, isFullWidth, isFloating, classN
                     )}
                 >
                     <div className="flex flex-1 items-center gap-5">
-                        <UntitledLogo className="h-8 md:max-lg:hidden" />
-                        <UntitledLogoMinimal className="hidden h-8 md:inline-block lg:hidden" />
+                        <a
+                            aria-label="Go to homepage"
+                            href="/"
+                            className="rounded-xs outline-focus-ring focus-visible:outline-2 focus-visible:outline-offset-2 md:max-lg:hidden"
+                        >
+                            <UntitledLogo className="h-8" />
+                        </a>
+                        <a
+                            aria-label="Go to homepage"
+                            href="/"
+                            className="hidden rounded-xs outline-focus-ring focus-visible:outline-2 focus-visible:outline-offset-2 md:inline-block lg:hidden"
+                        >
+                            <UntitledLogoMinimal className="h-8" />
+                        </a>
 
                         {/* Desktop navigation */}
                         <nav className="max-md:hidden">

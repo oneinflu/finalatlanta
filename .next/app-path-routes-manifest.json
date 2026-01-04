@@ -1,6 +1,7 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/academy/page": "/academy",
   "/icon.png/route": "/icon.png",
   "/page": "/",
   "/programs/ai-cyber-secuirty-training-program/page": "/programs/ai-cyber-secuirty-training-program",

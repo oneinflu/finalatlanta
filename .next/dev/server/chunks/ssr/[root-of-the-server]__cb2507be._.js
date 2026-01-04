@@ -343,7 +343,7 @@ function RootLayout({ children }) {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute left-0 top-0 h-[50vh] w-[50vw] blur-3xl opacity-30",
                                         style: {
-                                            background: "radial-gradient(circle at 30% 30%, rgba(158,119,237,0.28) 0%, rgba(127,86,217,0.14) 35%, rgba(127,86,217,0) 65%)"
+                                            background: "radial-gradient(circle at 30% 30%, rgba(139,92,246,0.22) 0%, rgba(127,86,217,0.12) 35%, rgba(127,86,217,0) 65%)"
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/layout.tsx",
@@ -353,7 +353,7 @@ function RootLayout({ children }) {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute right-0 bottom-8 h-[55vh] w-[55vw] blur-3xl opacity-25",
                                         style: {
-                                            background: "radial-gradient(circle at 70% 70%, rgba(127,86,217,0.24) 0%, rgba(105,65,198,0.12) 35%, rgba(105,65,198,0) 65%)"
+                                            background: "radial-gradient(circle at 70% 70%, rgba(127,86,217,0.22) 0%, rgba(68,76,231,0.12) 35%, rgba(68,76,231,0) 65%)"
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/layout.tsx",

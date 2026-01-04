@@ -10,6 +10,7 @@ import { Certification } from "@/app/programs/certification";
 import { CourseOutcomes } from "@/app/programs/course-outcomes";
 import { CertificationTrust } from "@/app/programs/certification-trust";
 import { Capstone } from "@/app/programs/capstone";
+import { NextStepCTA } from "@/app/programs/cta-next-step";
 
 export default function AICyberProgramPage() {
     return (
@@ -19,8 +20,8 @@ export default function AICyberProgramPage() {
             <CourseOutcomes />
             <Curriculum />
             <Capstone />
-            <CertificationTrust />
            
+            <NextStepCTA />
         </main>
     );
 }
